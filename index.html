@@ -9,15 +9,17 @@
 </head>
 <body>
     <div class="container">
+        <br><br>
         <h1 class="title">Sayı Tahmin Oyunu</h1>
         <div class="oyun" >
-            <p>Tahminler <span class="min">1</span> ile <span class="max">100</span> arasında olmalıdır</p>
+            
+            <p class="infoMessage">Tahminler <span class="min"> 1 </span>  ile  <span class="max"> 100 </span>  arasında olmalıdır</p>
             <div class="form-group" d-flex gap-5>
-                <input type="number" value="Bir sayı giriniz..." onfocus="this.value=''" class="form-control" id="tahminInput">
+                <input type="number" value = "" onfocus="this.value=''" placeholder="Enter a number" class="form-control" id="tahminInput">
                 <button type="submit" class="form-control" btn btn-primary id="tahminButton" >Tahmin Et</button>
             </div>
-            <p class="message warn mt-5"> </p>
-            <p id="messageGuess"> </p>
+            <p class="message mt-5"> </p>
+            <p class="message guess"> </p>
         </div>
 
     </div>

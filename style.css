@@ -1,10 +1,55 @@
 *{
-    
    justify-content: center;
    align-items: center;
    text-align: center;
 }
 .title{
     display: flex;
-    margin-top: 140px;
+    color: white;
+    font-size: 45px;
+}
+.infoMessage{
+    display: flex;
+    color: white;
+    font-size: 34px;
+}
+#Input{
+    margin-bottom: 0;
+    height: 40px;
+    border: solid 3px green;
+    
+}
+body{  
+    background-image:url(numbers.png);
+    background-position: center;
+    background-size: cover;
+}
+html, body{
+    height: 100%;
+}
+.container{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(163, 133, 133, 0.6);
+}
+#tahminInput, #tahminButton{
+    height: 32px;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+#tahminButton {
+    background-color: tomato;
+}
+
+.message{
+    font-size: 23px;
+}
+span{
+    color: red;
+}
+#tahminButton:hover{
+    background: rgb(11, 88, 41, 0.5);
+    cursor: pointer;
 }
