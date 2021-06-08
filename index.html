@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Sayı Tahmin Oyunu</h1>
+        <div class="oyun" >
+            <p>Tahminler <span class="min">1</span> ile <span class="max">100</span> arasında olmalıdır</p>
+            <div class="form-group" d-flex gap-5>
+                <input type="number" value="Bir sayı giriniz..." onfocus="this.value=''" class="form-control" id="tahminInput">
+                <button type="submit" class="form-control" btn btn-primary id="tahminButton" >Tahmin Et</button>
+            </div>
+            <p class="message warn mt-5"> </p>
+            <p id="messageGuess"> </p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
